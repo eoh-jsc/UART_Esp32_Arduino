@@ -7,8 +7,8 @@
 #include <Arduino.h>
 #include <ERa.hpp>
 
-const char ssid[] = "eoh.io";
-const char pass[] = "Eoh@2020";
+const char ssid[] = "YOUR_SSID";
+const char pass[] = "YOUR_PASSWORD";
 
 void setup() {
   ERa.begin(ssid, pass);
